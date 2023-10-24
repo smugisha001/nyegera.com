@@ -1,0 +1,167 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%; height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; 
+}
+
+nav .logo{
+    width: 15%; text-align: center;
+    /* background: red; */
+}
+
+nav .menu{
+    width: 25%; 
+    display: flex; justify-content: space-around;
+}
+
+nav .menu a{
+    width: 25%; text-decoration: none; color: white;
+    font-weight: bold;
+}
+
+nav .menu a:hover{
+    color: #00b894;
+}
+
+nav .logoimg{
+    width: 20px; border-radius: 5px;
+}
+
+nav .menu a:nth-child(4){
+    color: #00b894;
+}
+
+nav .menu a:nth-child(4):hover{
+    color: white;
+}
+
+main{
+    font-weight: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+}
+
+section{
+
+}
+
+section a img{
+    width: 300px; height: 100px; padding: 2px; background: #eee;
+    box-shadow: 10px 10px 5px #00b894;
+      -moz-box-shadow: 10px 10px 5px #00b894;
+      -webkit-box-shadow: 10px 10px 5px #00b894;
+      -khtml-box-shadow: 10px 10px 5px #00b894;
+
+}
+
+section h3{
+    font-size: 35px; font-weight: 200; letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black; 
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 1.5px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black; 
+}
+
+section a{
+    padding: 13px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px; 
+    transition: all .5s ease;
+}
+
+
+section .btnone{
+    /* background: #00b894; */
+    background: white;
+    color: #000;
+}
+
+.btnone:hover{
+    
+    color:#00b894;
+}
+
+.btntwo:hover{
+    
+    color:black;
+}
+
+section .btntwo{
+    background: #00b894;
+    color: white;
+}
+
+section .agentname{
+    color: white; 
+}
+
+.change_content:after{
+    content:'';
+    animation: changetext 30s infinite linear;
+    color: #00b894;
+} 
+
+@keyframes changetext{
+    0%{content:"inama z'ubuzima"}
+    20%{content:"inama zubaka"}
+    35%{content:"inama z'igufasha"}
+    60%{content:"inama z'ubwenge"}
+    80%{content:"inama zizewe"}
+    100%{content:"inama zejo heza"}
+}
+
+.social-icon{
+    color: #aaaaaa; 
+    transition: color 0.2s;
+}
+
+.social-icon:hover{
+    color: #00b894;
+}
+
+body .videoexplain{
+    width: 100%; height: 85vh; padding: 30px 25px 25px 25px;
+    background: #00b894; border-radius: 25px;
+}
+ .logovideotab a:hover{
+
+    color: red;
+
+ }
+
+
+
